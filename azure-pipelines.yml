@@ -15,5 +15,5 @@ variables:
 steps:
 
 - script: |
-    npm install -g @angular/cli@latest ./DattingApp-SPA
+    npm install -g @angular/cli ./DattingApp-SPA
   displayName: 'npm install and build'
