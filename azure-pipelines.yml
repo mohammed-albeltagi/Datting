@@ -22,7 +22,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g @angular/cli@latest ./DattingApp-SPA
-    npm install ./DattingApp-SPA
-    ng build ./DattingApp-SPA 
+    npm install -g @angular/cli@latest ./DattingApp/DattingApp-SPA
+    npm install ./DattingApp/DattingApp-SPA
+    ng build ./DattingApp/DattingApp-SPA 
   displayName: 'npm install and build'
